@@ -1,0 +1,49 @@
+<app-navbar></app-navbar>
+<div class="jumbotron" style="color: red">
+    <h2 class="display-4">Post Your Advertisement Here</h2>
+    <p class="lead">Please Select the category of Advertisement that you want to post from the following list.</p>
+    <hr class="my-4">
+</div>
+<div class="container">
+    <h2 class="display-10">Select the category</h2>
+    <div class="btn-group">
+        <button type="button" class="btn btn-lg btn-warning dropdown-toggle dropdown-toggle-split"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Select
+        </button>
+        <div class="dropdown-menu">
+
+            <a class="dropdown-item" href="#">Housing</a>
+            <a class="dropdown-item" href="#">Accessories</a>
+            <a class="dropdown-item" href="#">Vehicles</a>
+            <a class="dropdown-item" href="#">Properties</a>
+
+        </div>
+    </div>
+
+
+    <form>
+        <div class="form-group col-6">
+            <label>Title</label>
+            <input type="text" class="form-control" placeholder="Enter title">
+
+        </div>
+        <div class="form-group col-6">
+            <label>Description</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group col-6">
+            <label>City</label>
+            <input type="text" class="form-control" placeholder="Enter City">
+
+        </div>
+        <div class="form-group col-6">
+            <label>Country</label>
+            <input type="text" class="form-control" placeholder="Enter Country">
+
+        </div>
+
+        <button type="submit" class="btn btn-warning">Submit</button>
+    </form>
+
+</div>
