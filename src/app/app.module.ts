@@ -12,6 +12,8 @@ import { PostaddComponent } from './postadd/postadd.component';
 import { LoginreguserComponent } from './loginreguser/loginreguser.component';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { InitselectComponent } from './initselect/initselect.component';
+import { AdminpageComponent } from './adminpage/adminpage.component';
+import { ViewadsComponent } from './viewads/viewads.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { InitselectComponent } from './initselect/initselect.component';
     PostaddComponent,
     LoginreguserComponent,
     AdminloginComponent,
-    InitselectComponent
+    InitselectComponent,
+    AdminpageComponent,
+    ViewadsComponent
   ],
   imports: [
     BrowserModule,
